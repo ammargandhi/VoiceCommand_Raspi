@@ -3,21 +3,21 @@ import sys
 
 if sys.argv[1]=='one'
   ser=Serial.serial('/dev/ttyUSB0',9600)
-  ser.write('a')
+  ser.write('1')
   ser.close()
   
 if sys.argv[1]=='two'
   ser=Serial.serial('/dev/ttyUSB0',9600)
-  ser.write('b')
+  ser.write('2')
   ser.close()
   
 if sys.argv[1]=='three'
   ser=Serial.serial('/dev/ttyUSB0',9600)
-  ser.write('c')
+  ser.write('3')
   ser.close()
   
 if sys.argv[1]=='four'
   ser=Serial.serial('/dev/ttyUSB0',9600)
-  ser.write('d')
+  ser.write('4')
   ser.close()
         
